@@ -4,7 +4,7 @@ import requests
 import re
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
-TOKEN = "YOUR_BOT_TOKEN_HERE"
+TOKEN = "MTUwNjYwMDIxNTgzNzE0NzE2Nw.GYaZ5b.OYfoe8iLgYN9QznkuhLwsYqacb4C93WHJquas4"
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="/", intents=intents)
