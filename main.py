@@ -9,7 +9,7 @@ client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
-    print(f"SUCCESS! Logged in as {client.user}")
+    print(f"✅ ONLINE: {client.user} is live")
     await client.close()
 
 client.run(TOKEN)
