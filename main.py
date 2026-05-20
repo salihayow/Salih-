@@ -4,7 +4,7 @@ import requests
 import re
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
-TOKEN = "MTUwNjYwMDIxNTgzNzE0NzE2Nw.GYaZ5b.OYfoe8iLgYN9QznkuhLwsYqacb4C93WHJquas4"  # <--- YOU MUST CHANGE THIS
+TOKEN = "MTUwNjYwMDIxNTgzNzE0NzE2Nw.G7jpPl.DV0g-vQHnc5Q_EbnJAobcWk10ka3BgM3F8nLzU"  # <--- YOU MUST CHANGE THIS
 
 intents = discord.Intents.default()
 intents.message_content = True  # FIX: enables message content intent
